@@ -4,9 +4,9 @@
 
 class Servidor{
 	int usuarioDonold;
-	string nome, descricao, codigoConvite;
-	vector< CanalTexto > canaisTexto;
-	vector< int > participantesIDs;
+	std::string nome, descricao, codigoConvite;
+	std::vector< CanalTexto > canaisTexto;
+	std::vector< int > participantesIDs;
 };
 
 #endif

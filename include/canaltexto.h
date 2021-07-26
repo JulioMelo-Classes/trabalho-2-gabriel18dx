@@ -3,8 +3,8 @@
 #include "mensagem.h"
 
 class CanalTexto{
-	string nome;
-	vector< Mensagem > mensagens;
+	std::string nome;
+	std::vector< Mensagem > mensagens;
 };
 
 #endif

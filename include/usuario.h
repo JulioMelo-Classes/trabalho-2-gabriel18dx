@@ -2,9 +2,9 @@
 #define USUARIO_H
 
 class Usuario{
-	private:
+	public:
 		int id;
-		string nome, email, senha;
+		std::string nome, email, senha;
 };
 
 #endif
