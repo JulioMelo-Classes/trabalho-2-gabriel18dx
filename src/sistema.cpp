@@ -10,13 +10,16 @@ string Sistema::quit() {
   return "Saindo...";
 }
 
+/*
+A1.2 ok
+*/
 string Sistema::create_user (const string email, const string senha, const string nome) {
   for(auto itr = usuarios.begin(); itr != usuarios.end(); itr++){
     if(itr.email == email){
       return "Usuário já existe.";
     }
   }
-  Usuario u;
+  Usuario u; //aqui vai 
   u.email = email;
   u.senha = senha;
   u.nome = nome;
@@ -24,6 +27,9 @@ string Sistema::create_user (const string email, const string senha, const strin
   return "Usuário criado.";
 }
 
+/*
+Veja que vc não vai conseguir implementar os comandos da segunda parte sem fazer esses!
+*/
 string Sistema::login(const string email, const string senha) {
   return "login NÃO IMPLEMENTADO";
 }
